@@ -2,6 +2,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class ThreadPoolExample {
+    //Using ExecutorService with a Fixed Thread Pool
     public static void main(String[] args) {
         // Create a thread pool with 5 threads
         ExecutorService executor = Executors.newFixedThreadPool(5);
